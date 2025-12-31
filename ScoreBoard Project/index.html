@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="master-container">
+            <div class="container">
+                <div class="container-split">
+                    <h3 class="team">HOME</h3>
+                    <div class="scorecard">
+                        <span id="home-score-el">0</span>
+                    </div>
+                    <div class="button-section">
+                        <button onclick="homeP1()">+1</button>
+                        <button onclick="homeP2()">+2</button>
+                        <button onclick="homeP3()">+3</button>
+                    </div>
+                </div>
+                <div class="container-split">
+                    <h3 class="team">GUEST</h3>
+                    <div class="scorecard">
+                        <span id="guest-score-el">0</span>
+                    </div>
+                    <div class="button-section">
+                        <button onclick="guestP1()">+1</button>
+                        <button onclick="guestP2()">+2</button>
+                        <button onclick="guestP3()">+3</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button id="reset-btn" onclick="reset()">RESET SCORES</button>
+             </div>
+        <div>
+        <script src="index.js"></script>
+    </body>
+</html>
